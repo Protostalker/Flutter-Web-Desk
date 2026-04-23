@@ -6,10 +6,10 @@ A slimmed-down Docker packaging of the [RustDesk](https://github.com/rustdesk/ru
 
 ## Quick start (pre-built image)
 
-Download `flutter_web_desk_v2.tar.gz` from the [latest release](../../releases/latest), then on any Linux machine with Docker installed:
+Download `flutter_web_desk.tar.gz` from the [latest release](../../releases/latest), then on any Linux machine with Docker installed:
 
 ```bash
-docker load -i flutter_web_desk_v2.tar.gz
+docker load -i flutter_web_desk.tar.gz
 
 docker run -d \
   --name flutter_web_desk \
