@@ -1,0 +1,27 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+====================================================================
+  PLACEHOLDER — REPLACE THIS FILE BEFORE PUSHING TO GITHUB
+====================================================================
+
+This project is licensed under the GNU Affero General Public License
+v3.0 (AGPL-3.0), inherited from upstream RustDesk
+(https://github.com/rustdesk/rustdesk), and must be redistributed
+under the same license.
+
+This file is a placeholder because the canonical license text
+could not be fetched from the environment where the repo was
+prepared. Before publishing, replace this file with the full AGPL-3.0
+text using one of the commands below.
+
+Option 1 — fetch from the FSF (canonical source):
+
+    curl -o LICENSE https://www.gnu.org/licenses/agpl-3.0.txt
+
+Option 2 — copy the exact LICENCE.md that RustDesk ships:
+
+    curl -L -o LICENSE https://raw.githubusercontent.com/rustdesk/rustdesk/master/LICENCE.md
+
+Once this file contains the real AGPL-3.0 text, GitHub will
+automatically detect it and show "AGPL-3.0" on your repo homepage.

@@ -1,0 +1,11 @@
+.vscode/
+android/
+ios/
+logs/
+test/
+.idea/
+pubspec.lock
+.dart_tool
+.analysis-options
+.packages
+*.g.dart

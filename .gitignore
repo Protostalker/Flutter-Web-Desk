@@ -1,0 +1,72 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# NOTE: /build/ is intentionally NOT ignored in this repo. Normally Flutter
+# projects exclude it as regenerable output, but here we ship the
+# pre-compiled build/web/ so the Dockerfile can COPY it directly without
+# needing a Flutter SDK at build time. Other build/ subdirs (desktop,
+# mobile) aren't used by the Docker image, so ignore them specifically:
+/build/linux/
+/build/macos/
+/build/windows/
+/build/ios/
+/build/android/
+
+# Node modules for the web JS bundle — regenerable with `yarn install`.
+web/js/node_modules/
+build/web/js/node_modules/
+
+# Web related
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+jniLibs
+
+.vscode
+
+# flutter rust bridge
+lib/generated_bridge.dart
+
+# Flutter Generated Files
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/generated_plugins.cmake
+macos/Flutter/GeneratedPluginRegistrant.swift
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+flutter_export_environment.sh
+Flutter-Generated.xcconfig
+key.jks
